@@ -1,0 +1,20 @@
+{% load static %}
+{% load profile_complete_notification %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pythons Wiki</title>
+</head>
+<body>
+
+{% include 'common/header.html' %}
+
+{% profile_complete_notification %}
+
+{% block content %}
+{% endblock %}
+
+{% include 'common/footer.html' %}
+</body>
+</html>
